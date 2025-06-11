@@ -19,9 +19,11 @@ Passionate about ethical hacking, Linux, cloud security, and staying curious.
 ## 📂 Portfolio Contents
 
 ### 🔐 Certifications
-- Google Cybersecurity Certificate – Foundations
-- Google Cybersecurity Certificate – Linux & SQL
-- *(add any others here)*
+- Google Cybersecurity Certificate – Foundations of Cybersecurity
+- Google Cybersecurity Certificate – Tools of the Trade: Linux and SQL
+- Google Cybersecurity Certificate - Connect and Protect: Networks and Network
+Security
+- Google Cybersecurity Certificate - Play It Safe: Manage Security Risks
 
 ### 🧪 Labs
 - Linux permissions lab (chmod, chown, users)
@@ -30,6 +32,7 @@ Passionate about ethical hacking, Linux, cloud security, and staying curious.
 
 ### 📓 Notes
 - Course notes from each module
+- Handwriting notes from each module
 - Learning journal / progress tracker
 
 ---
@@ -38,10 +41,8 @@ Passionate about ethical hacking, Linux, cloud security, and staying curious.
 - Finish Google Cybersecurity Cert
 - Build a home lab with Kali Linux
 - Learn basic penetration testing
-- Start applying for entry-level roles by [Month/Year]
+- Play It Safe: Manage Security Risks
 
 ---
 
 > "I failed. I learned." – That’s my mindset.
-# CyberBeastsKing.github.io
-Personal cybersecurity portfolio and learning journey
