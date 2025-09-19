@@ -36,7 +36,8 @@ A security-focused dashboard built from custom web logs to show how I ingest dat
 - **File:** `web_logs.log` (sample HTTP access logs)
 
 **Screenshots**
-![Web Traffic Dashboard](projects/web-traffic-analysis.png)
+![Web Traffic Dashboard](CyberBeastKing.github.io/project
+/web-traffic-analysis.png)
 
 ---
 
