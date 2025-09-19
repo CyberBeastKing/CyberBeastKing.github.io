@@ -28,21 +28,40 @@ Security
 ## 📊 Projects
 
 ### Web Traffic Analysis with Splunk
-- **Goal:** Build a security-focused dashboard to analyze simulated web traffic logs.  
-- **Setup:**  
-  - Created a custom log file (`web_logs.log`) with realistic HTTP requests.  
-  - Ingested logs into Splunk with a custom sourcetype (`web:logs`) and index (`project1`).  
-- **Dashboard Panels:**  
-  - **HTTP Status Codes** – breakdown of successful vs failed requests (200, 401, 403).  
-  - **Requests by URL** – which endpoints are accessed most often (`/index.html`, `/admin`, `/login.php`).  
-  - **Requests Over Time** – visualize traffic patterns and errors across time.  
-- **Skills Demonstrated:**  
-  - Splunk ingestion & indexing  
-  - SPL queries (search, stats, table, timechart)  
-  - Security monitoring concepts (failed login attempts, restricted URL access)  
-  - Dashboard creation & visualization polish  
-- **Screenshots:**  
-  ![Web Traffic Dashboard](projects/web-traffic-analysis.png)
+A security-focused dashboard built from custom web logs to show how I ingest data, write SPL, and design visualizations.
+
+**Data**
+- **Index:** `project1`
+- **Sourcetype:** `web:logs`
+- **File:** `web_logs.log` (sample HTTP access logs)
+
+**Screenshots**
+![Web Traffic Dashboard](projects/web-traffic-analysis.png)
+
+---
+
+### SPL used for the panels
+
+#### 1) HTTP Status Codes (single-value or bar)
+```spl
+index=project1 sourcetype=web:logs
+| stats count by status
+| sort - count
+
+Requests by URL (table or bar)
+index=project1 sourcetype=web:logs
+| stats count by url
+| sort - count
+
+Requests Over Time by Status (timechart/line)
+index=project1 sourcetype=web:logs
+| timechart span=10m count by status
+
+(Optional) Top Source IPs (table)
+index=project1 sourcetype=web:logs
+| stats count by src_ip
+| sort - count
+
 
 
 
