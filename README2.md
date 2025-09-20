@@ -79,9 +79,9 @@ index=project1 sourcetype=web:logs
 
 <h2>SQL Log Analysis – Suspicious Logins</h2>
 
-This project simulates a brute-force login investigation using SQL queries on employee login data. The goal was to detect failed login attempts, external access, and suspicious login patterns.
+This project simulates a **brute-force login investigation** using SQL queries on employee login data. The goal was to detect failed login attempts, external access, and suspicious login patterns.
 
-Dataset
+**Dataset**
 A synthetic `employee_logins` table with:
 
 `username` – Employee username
@@ -92,7 +92,7 @@ A synthetic `employee_logins` table with:
 
 `status` – SUCCESS / FAILED
 
-Screenshots
+**Screenshots**
 
 Screenshot 1 – All login records
 
