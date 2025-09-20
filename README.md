@@ -12,7 +12,7 @@ I bring consistency, energy, and a growth mindset — ready to contribute to a S
 - Linux basics & command-line
 - SQL for data analysis & log queries
 - Cybersecurity tools: nmap, wireshark, whois, etc.
-- Hands-on labs from Google course
+- Hands-on labs from Google course and Youtube
 - Constant learner (Darknet Diaries + daily study grind, etc)
 
 ---
