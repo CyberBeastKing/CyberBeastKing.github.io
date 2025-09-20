@@ -46,26 +46,31 @@ A security-focused dashboard built from custom web logs to show how I ingest dat
 
 ![Web Traffic Analysis Dashboard](project/web-traffic-analysis.png)
 
+<details>
+
+**<summary>See SPL Queries</summary>**
+
 #### 1) HTTP Status Codes
 ```spl
 index=project1 sourcetype=web:logs
 | stats count by status
 | sort - count
 ```
-Requests by URL
+#### 2) Requests by URL
 ```sql
 index=project1 sourcetype=web:logs
 | stats count by url
 | sort - count
 ```
-Requests Over Time by Status
+#### 3) Requests Over Time by Status
 ```sql
 index=project1 sourcetype=web:logs
 | timechart span=10m count by status
 ```
-Top Source IPs
+#### 4) Top Source IPs
 ```sql
 index=project1 sourcetype=web:logs
 | stats count by src_ip
 | sort - count
 ```
+</details>
