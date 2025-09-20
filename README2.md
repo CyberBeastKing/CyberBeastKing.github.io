@@ -82,6 +82,7 @@ index=project1 sourcetype=web:logs
 This project simulates a **brute-force login investigation** using SQL queries on employee login data. The goal was to detect failed login attempts, external access, and suspicious login patterns.
 
 **Dataset**
+
 A synthetic `employee_logins` table with:
 
 `username` – Employee username
