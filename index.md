@@ -26,7 +26,7 @@ I bring consistency, energy, and a growth mindset — ready to contribute to a S
 - [Connect and Protect: Networks and Network Security](certifications/coursera-connect-and-protect.pdf)
 - [Play It Safe: Manage Security Risks](certifications/coursera-play-it-safe-manage-security-risks.pdf)
 - [Assets, Threats, and Vulnerabilities](certifications/Coursera-Assets-Threats-and-Vulnerabilities.pdf)
-- [Sound the Alarm: Detection and Response](certifications/Coursera-Sound-the-Alarm-Detection and Response.pdf)
+- [Sound the Alarm: Detection and Response](certifications/Coursera-Sound-the-Alarm-Detection-and-Response.pdf)
 
 > If any link 404s, double-check the exact PDF filenames and capitalization in `/certifications`.
 
