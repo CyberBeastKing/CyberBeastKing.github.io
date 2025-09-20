@@ -50,6 +50,7 @@ A security-focused dashboard built from custom web logs to show how I ingest dat
 ![Web Traffic Analysis Dashboard](project/web-traffic-analysis.png)  
 
 <details>
+
 <summary>See SPL Queries</summary>
 
 #### 1) HTTP Status Codes
