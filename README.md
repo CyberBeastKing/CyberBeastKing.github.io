@@ -24,6 +24,8 @@ Passionate about ethical hacking, Linux, cloud security, and staying curious.
 - Google Cybersecurity Certificate - Connect and Protect: Networks and Network
 Security
 - Google Cybersecurity Certificate - Play It Safe: Manage Security Risks
+- Google Cybersecurity Certificate - Assets, Threats, and Vulnerabilities
+- Google Cybersecurity Certificate - Sound the Alarm: Detection and Response
 
 ## 📊 Projects
 
