@@ -165,6 +165,14 @@ ORDER BY failed_attempts DESC, username;
 ```
 </details>
 
+## 🚩 Findings
+
+- Multiple failed logins from `192.168.1.11` and `10.0.0.5`.
+
+- User `jdoe` and `admin` showed repeated failures before eventual success — common brute-force pattern.
+
+- External logins from `203.0.113.55 (mary)` indicate possible compromise from outside the network.
+
 ## 🧪 Labs & Practice (Google Cybersecurity Course)
 
 ### Manage Authorization (Linux Permissions)
@@ -222,10 +230,15 @@ ORDER BY failed_attempts DESC, username;
 
 </details>
 
-## 🚩 Findings
+📌 Current Goals
 
-- Multiple failed logins from `192.168.1.11` and `10.0.0.5`.
+- Finish Google Cybersecurity Certificate
 
-- User `jdoe` and `admin` showed repeated failures before eventual success — common brute-force pattern.
+- Build a home SOC lab (Kali Linux, Splunk, Security Onion)
 
-- External logins from `203.0.113.55 (mary)` indicate possible compromise from outside the network.
+- Studying for comptia security+
+  
+- Land an entry-level SOC role and keep leveling up
+
+"I failed. I learned." – That’s my mindset.
+
