@@ -173,8 +173,7 @@ ORDER BY failed_attempts DESC, username;
 
 - External logins from `203.0.113.55 (mary)` indicate possible compromise from outside the network.
 
-
-## 🧪 Labs & Practice (Google Cybersecurity Course)
+<h2>🧪 Labs & Practice (Google Cybersecurity Course)</h2>
 
 ### Manage Authorization (Linux Permissions)
 <details>
