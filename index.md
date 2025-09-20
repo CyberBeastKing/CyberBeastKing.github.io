@@ -74,3 +74,93 @@ index=project1 sourcetype=web:logs
 | sort - count
 ```
 </details>
+
+<h2>SQL Log Analysis – Suspicious Logins</h2>
+
+This project simulates a **brute-force login investigation** using SQL queries on employee login data. The goal was to detect failed login attempts, external access, and suspicious login patterns.
+
+**Dataset**
+
+A synthetic `employee_logins` table with:
+
+`username` – Employee username
+
+`login_time` – Timestamp of login
+
+`ip_addres`s – Source IP
+
+`status` – SUCCESS / FAILED
+
+**Screenshots**
+
+- ![Screenshot 1 – All login records](project/project2-sql-log_analysis/screenshot1.png)
+- ![Screenshot 2 – External logins](project/project2-sql-log_analysis/screenshot2.png)
+- ![Screenshot 3 – Failed → Success sequence](project/project2-sql-log_analysis/screenshot3.png)
+- ![Screenshot 4 – Failed attempts per IP](project/project2-sql-log_analysis/screenshot4.png)
+- ![Screenshot 5 – Logins over time (by hour)](project/project2-sql-log_analysis/screenshot5.png)
+- ![Screenshot 6 – Failed attempts per user](project/project2-sql-log_analysis/screenshot6.png)
+
+
+<details>
+
+**<summary>See SQL Queries</summary>**
+  
+  #### 1) All Login Records
+  ```sql
+  SELECT * 
+FROM employee_logins
+ORDER BY login_time;
+```
+#### 2)External Logins (Outside Internal IP Range)
+```sql
+SELECT id, username, login_time, ip_address, status
+FROM employee_logins
+WHERE ip_address NOT LIKE '192.168.%'
+  AND ip_address NOT LIKE '10.%'
+  AND ip_address NOT LIKE '172.16.%'
+ORDER BY login_time;
+```
+#### 3)First Failed → First Success (Suspicious Sequence)
+```sql
+WITH first_failed AS (
+  SELECT username, MIN(login_time) AS first_failed_time
+  FROM employee_logins
+  WHERE status = 'FAILED'
+  GROUP BY username
+),
+first_success AS (
+  SELECT username, MIN(login_time) AS first_success_time
+  FROM employee_logins
+  WHERE status = 'SUCCESS'
+  GROUP BY username
+)
+SELECT f.username, f.first_failed_time, s.first_success_time
+FROM first_failed f
+JOIN first_success s ON f.username = s.username;
+```
+#### 4) Failed Attempts per IP
+```sql
+SELECT ip_address, COUNT(*) AS failed_count
+FROM employee_logins
+WHERE status = 'FAILED'
+GROUP BY ip_address
+ORDER BY failed_count DESC, ip_address;
+```
+#### 5) Logins Over Time (by Hour)
+```sql
+SELECT strftime('%Y-%m-%d %H:00', login_time) AS hour_bucket,
+       SUM(CASE WHEN status = 'SUCCESS' THEN 1 ELSE 0 END) AS success_count,
+       SUM(CASE WHEN status = 'FAILED' THEN 1 ELSE 0 END) AS failed_count
+FROM employee_logins
+GROUP BY hour_bucket
+ORDER BY hour_bucket;
+```
+#### 6) Failed Attempts per User
+```sql
+SELECT username, COUNT(*) AS failed_attempts
+FROM employee_logins
+WHERE status = 'FAILED'
+GROUP BY username
+ORDER BY failed_attempts DESC, username;
+```
+</details>
