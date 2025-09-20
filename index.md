@@ -173,6 +173,7 @@ ORDER BY failed_attempts DESC, username;
 
 - External logins from `203.0.113.55 (mary)` indicate possible compromise from outside the network.
 
+
 ## 🧪 Labs & Practice (Google Cybersecurity Course)
 
 ### Manage Authorization (Linux Permissions)
@@ -229,6 +230,7 @@ ORDER BY failed_attempts DESC, username;
 - ![Employees in South Building](sql-filtering-practice-employee-machine-info/sql_results/06_employees_in_south_building_like_query.png)  
 
 </details>
+
 
 
 ### 📌 Current Goals
