@@ -96,17 +96,14 @@ A synthetic `employee_logins` table with:
 
 **Screenshots**
 
-Screenshot 1 – All login records
+**Screenshots**
 
-Screenshot 2 – External logins
-
-Screenshot 3 – Failed → Success sequence
-
-Screenshot 4 – Failed attempts per IP
-
-Screenshot 5 – Logins over time (by hour)
-
-Screenshot 6 – Failed attempts per user
+- [Screenshot 1](./project2-sql-log_analysis/screenshot1.png) – All login records  
+- [Screenshot 2](./project2-sql-log_analysis/screenshot2.png) – External logins  
+- [Screenshot 3](./project2-sql-log_analysis/screenshot3.png) – Failed → Success sequence  
+- [Screenshot 4](./project2-sql-log_analysis/screenshot4.png) – Failed attempts per IP  
+- [Screenshot 5](./project2-sql-log_analysis/screenshot5.png) – Logins over time (by hour)  
+- [Screenshot 6](./project2-sql-log_analysis/screenshot6.png) – Failed attempts per user  
 
 <details>
 
