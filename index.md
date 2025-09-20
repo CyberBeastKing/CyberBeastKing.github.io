@@ -164,3 +164,11 @@ GROUP BY username
 ORDER BY failed_attempts DESC, username;
 ```
 </details>
+
+## 🚩 Findings
+
+- Multiple failed logins from `192.168.1.11` and `10.0.0.5`.
+
+- User `jdoe` and `admin` showed repeated failures before eventual success — common brute-force pattern.
+
+- External logins from `203.0.113.55 (mary)` indicate possible compromise from outside the network.
