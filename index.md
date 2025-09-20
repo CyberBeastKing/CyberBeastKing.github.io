@@ -230,7 +230,8 @@ ORDER BY failed_attempts DESC, username;
 
 </details>
 
-📌 Current Goals
+
+### 📌 Current Goals
 
 - Finish Google Cybersecurity Certificate
 
@@ -239,6 +240,7 @@ ORDER BY failed_attempts DESC, username;
 - Studying for comptia security+
   
 - Land an entry-level SOC role and keep leveling up
+
 
 "I failed. I learned." – That’s my mindset.
 
