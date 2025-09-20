@@ -169,7 +169,7 @@ ORDER BY failed_attempts DESC, username;
 
 ### Manage Authorization (Linux Permissions)
 <details>
-<summary>🔒 Linux Permissions Lab – `Click to Expand`</summary>
+<summary>🔒 Linux Permissions Lab – **Click to Expand**</summary>
 
 **PDFs**
 - [Current File Permission (PDF)](manage-authorization/current-file-permissions.pdf)  
