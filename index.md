@@ -168,18 +168,40 @@ ORDER BY failed_attempts DESC, username;
 ## 🧪 Labs & Practice (Google Cybersecurity Course)
 
 ### Manage Authorization (Linux Permissions)
-- [Terminal Screenshot: Check Details Command](manage-authorization/)  
+<details>
+<summary>🔒 Linux Permissions Lab – Click to Expand</summary>
+
+![Terminal Screenshot: Check Details Command](manage-authorization/screenshot.png)  
+
 - [Current File Permission (PDF)](manage-authorization/current-file-permissions.pdf)  
 - [File Permissions in Linux (PDF)](manage-authorization/file-permissions-in-linux.pdf)  
 
+</details>
+
+---
+
 ### SQL Filtering – Data Investigation
-- [Terminal Screenshot: Failed Logins After Hours](sql-filtering-data-investigation-cybersecurity-practice/)  
+<details>
+<summary>📝 SQL Filtering – Detecting Failed Logins</summary>
+
+![SQL Failed Logins Screenshot](sql-filtering-data-investigation-cybersecurity-practice/screenshot.png)  
+
 - [Apply Filters to SQL Queries (PDF)](sql-filtering-data-investigation-cybersecurity-practice/apply-filters-to-sql-queries.pdf)  
 - [Table Format (PDF)](sql-filtering-data-investigation-cybersecurity-practice/table-formats.pdf)  
 
+</details>
+
+---
+
 ### SQL Filtering – Employee & Machine Info
-- [SQL Results: All Machines Device ID and OS](sql-filtering-practice-employee-machine-info/)  
+<details>
+<summary>💻 Employee & Machine Info SQL Lab</summary>
+
+![SQL Employee Machine Screenshot](sql-filtering-practice-employee-machine-info/screenshot.png)  
+
 - [Training Activity Report (PDF)](sql-filtering-practice-employee-machine-info/training-activity-report-1.pdf)  
+
+</details>
 
 
 ## 🚩 Findings
