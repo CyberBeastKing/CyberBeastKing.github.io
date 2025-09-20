@@ -174,46 +174,44 @@ ORDER BY failed_attempts DESC, username;
 
 ## 🚩 Findings
 
-Multiple failed logins from 192.168.1.11 and 10.0.0.5.
+- Multiple failed logins from `192.168.1.11` and `10.0.0.5`.
 
-User jdoe and admin showed repeated failures before eventual success — common brute-force pattern.
+- User `jdoe` and `admin` showed repeated failures before eventual success — common brute-force pattern.
 
-External logins from 203.0.113.55 (mary) indicate possible compromise from outside the network.
+- External logins from `203.0.113.55 (mary)` indicate possible compromise from outside the network.
 
 ## ✅ Skills Demonstrated
 
-SQL filtering, grouping, and aggregation
+- SQL filtering, grouping, and aggregation
 
-Detecting suspicious authentication patterns
+- Detecting suspicious authentication patterns
 
-Identifying external vs internal access
+- Identifying external vs internal access
 
-Translating raw logs into actionable security findings
+- Translating raw logs into actionable security findings
 
 ## 🧪 Labs
 
-Linux permissions lab (chmod, chown, users)
+- Linux permissions lab (chmod, chown, users)
 
-SQL practice queries (filtering logs, incident data)
+- SQL practice queries (filtering logs, incident data)
 
-TryHackMe exercises (coming soon)
+- TryHackMe exercises (coming soon)
 
 ## 📓 Notes
 
-Course notes from each module
+- Course notes from each module
 
-Handwritten notes from each module
+- Handwritten notes from each module
 
-Learning journal / progress tracker
+- Learning journal / progress tracker
 
 ## 📌 Current Goals
 
-Finish Google Cybersecurity Cert
+- Finish Google Cybersecurity Cert
 
-Build a home lab with Kali Linux
+- Build a home lab with Kali Linux
 
-Learn basic penetration testing
-
-Play It Safe: Manage Security Risks
+- Learn basic penetration testing
 
 "I failed. I learned." – That’s my mindset.
