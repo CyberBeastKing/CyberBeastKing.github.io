@@ -103,7 +103,7 @@ A synthetic `employee_logins` table with:
 
 <details>
 
-**<summary>See SQL Queries</summary>**
+**<summary>See SQL Queries - **Click to Expand**</summary>**
   
   #### 1) All Login Records
   ```sql
