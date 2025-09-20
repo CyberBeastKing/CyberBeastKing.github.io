@@ -171,15 +171,15 @@ ORDER BY failed_attempts DESC, username;
 <details>
 <summary>🔒 Linux Permissions Lab – Click to Expand</summary>
 
+**PDFs**
+- [Current File Permission (PDF)](manage-authorization/current-file-permissions.pdf)  
+- [File Permissions in Linux (PDF)](manage-authorization/file-permissions-in-linux.pdf)  
+
 **Screenshots**
 - ![Check Details Command](manage-authorization/1-check-details-command.png)  
 - ![Permissions Output](manage-authorization/2-permissions-output.png)  
 - ![Change Permissions](manage-authorization/3-change-permissions.png)  
 - ![Hidden File Permissions](manage-authorization/4-hidden-file-permissions.png)  
-
-**PDFs**
-- [Current File Permission (PDF)](manage-authorization/current-file-permissions.pdf)  
-- [File Permissions in Linux (PDF)](manage-authorization/file-permissions-in-linux.pdf)  
 
 </details>
 
@@ -189,6 +189,10 @@ ORDER BY failed_attempts DESC, username;
 <details>
 <summary>📝 SQL Filtering – Detecting Failed Logins</summary>
 
+**PDFs**
+- [Apply Filters to SQL Queries (PDF)](sql-filtering-data-investigation-cybersecurity-practice/apply-filters-to-sql-queries.pdf)  
+- [Table Format (PDF)](sql-filtering-data-investigation-cybersecurity-practice/table-formats.pdf)  
+
 **Screenshots**
 - ![Failed Logins After Hours](sql-filtering-data-investigation-cybersecurity-practice/01_failed_logins_after_hours.png)  
 - ![Logins Not From Mexico](sql-filtering-data-investigation-cybersecurity-practice/02_logins_not_from_mexico.png)  
@@ -196,10 +200,6 @@ ORDER BY failed_attempts DESC, username;
 - ![Marketing Building Logins](sql-filtering-data-investigation-cybersecurity-practice/04_marketing_east_building.png)  
 - ![Sales or Finance Logins](sql-filtering-data-investigation-cybersecurity-practice/05_sales_or_finance.png)  
 - ![Not IT Department Logins](sql-filtering-data-investigation-cybersecurity-practice/06_not_in_IT_department.png)  
-
-**PDFs**
-- [Apply Filters to SQL Queries (PDF)](sql-filtering-data-investigation-cybersecurity-practice/apply-filters-to-sql-queries.pdf)  
-- [Table Format (PDF)](sql-filtering-data-investigation-cybersecurity-practice/table-formats.pdf)  
 
 </details>
 
@@ -209,6 +209,9 @@ ORDER BY failed_attempts DESC, username;
 <details>
 <summary>💻 Employee & Machine Info SQL Lab</summary>
 
+**PDFs**
+- [Training Activity Report (PDF)](sql-filtering-practice-employee-machine-info/training-activity-report-1.pdf)  
+
 **Screenshots**
 - ![All Machines Device ID + OS](sql-filtering-practice-employee-machine-info/sql_results/01_all_machines_device_id_and_os.png)  
 - ![Machines Filtered by OS](sql-filtering-practice-employee-machine-info/sql_results/02_machines_filtered_by_os2.png)  
@@ -216,9 +219,6 @@ ORDER BY failed_attempts DESC, username;
 - ![Employees in Sales](sql-filtering-practice-employee-machine-info/sql_results/04_employees_sales_department.png)  
 - ![Employee in South Office](sql-filtering-practice-employee-machine-info/sql_results/05_employee_in_south_109_office.png)  
 - ![Employees in South Building](sql-filtering-practice-employee-machine-info/sql_results/06_employees_in_south_building_like_query.png)  
-
-**PDFs**
-- [Training Activity Report (PDF)](sql-filtering-practice-employee-machine-info/training-activity-report-1.pdf)  
 
 </details>
 
