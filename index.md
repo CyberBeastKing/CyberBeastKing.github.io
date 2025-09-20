@@ -165,45 +165,6 @@ ORDER BY failed_attempts DESC, username;
 ```
 </details>
 
-## 🧪 Labs & Practice (Google Cybersecurity Course)
-
-### Manage Authorization (Linux Permissions)
-<details>
-<summary>🔒 Linux Permissions Lab – Click to Expand</summary>
-
-![Terminal Screenshot: Check Details Command](manage-authorization/screenshot.png)  
-
-- [Current File Permission (PDF)](manage-authorization/current-file-permissions.pdf)  
-- [File Permissions in Linux (PDF)](manage-authorization/file-permissions-in-linux.pdf)  
-
-</details>
-
----
-
-### SQL Filtering – Data Investigation
-<details>
-<summary>📝 SQL Filtering – Detecting Failed Logins</summary>
-
-![SQL Failed Logins Screenshot](sql-filtering-data-investigation-cybersecurity-practice/screenshot.png)  
-
-- [Apply Filters to SQL Queries (PDF)](sql-filtering-data-investigation-cybersecurity-practice/apply-filters-to-sql-queries.pdf)  
-- [Table Format (PDF)](sql-filtering-data-investigation-cybersecurity-practice/table-formats.pdf)  
-
-</details>
-
----
-
-### SQL Filtering – Employee & Machine Info
-<details>
-<summary>💻 Employee & Machine Info SQL Lab</summary>
-
-![SQL Employee Machine Screenshot](sql-filtering-practice-employee-machine-info/screenshot.png)  
-
-- [Training Activity Report (PDF)](sql-filtering-practice-employee-machine-info/training-activity-report-1.pdf)  
-
-</details>
-
-
 ## 🚩 Findings
 
 - Multiple failed logins from `192.168.1.11` and `10.0.0.5`.
