@@ -110,7 +110,7 @@ Screenshot 6 – Failed attempts per user
 
 <details>
 
-## <summary>See SQL Queries</summary>
+<summary>See SQL Queries</summary>
   
   All Login Records
   ```sql
