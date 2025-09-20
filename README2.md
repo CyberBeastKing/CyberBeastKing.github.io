@@ -51,7 +51,7 @@ A security-focused dashboard built from custom web logs to show how I ingest dat
 
 <details>
 
-<summary><h3>See SPL Queries</h3></summary>
+## <summary>See SPL Queries</summary>
 
 #### 1) HTTP Status Codes
 ```spl
@@ -110,7 +110,7 @@ Screenshot 6 – Failed attempts per user
 
 <details>
 
-<summary><h3>See SQL Queries</h3></summary>
+## <summary>See SQL Queries</summary>
   
   All Login Records
   ```sql
