@@ -163,6 +163,8 @@ WHERE status = 'FAILED'
 GROUP BY username
 ORDER BY failed_attempts DESC, username;
 ```
+</details>
+
 ## 🧪 Labs & Practice (Google Cybersecurity Course)
 
 ### Manage Authorization (Linux Permissions)
@@ -179,7 +181,6 @@ ORDER BY failed_attempts DESC, username;
 - [SQL Results: All Machines Device ID and OS](sql-filtering-practice-employee-machine-info/)  
 - [Training Activity Report (PDF)](sql-filtering-practice-employee-machine-info/training-activity-report-1.pdf)  
 
-</details>
 
 ## 🚩 Findings
 
