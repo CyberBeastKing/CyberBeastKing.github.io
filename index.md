@@ -91,7 +91,9 @@ A synthetic `employee_logins` table with:
 
 `status` – SUCCESS / FAILED
 
-**Screenshots**
+<details>
+  
+**<summary>Screenshots - Click to Expand</summary>**
 
 - ![Screenshot 1 – All login records](project/project2-sql-log_analysis/screenshot1.png)
 - ![Screenshot 2 – External logins](project/project2-sql-log_analysis/screenshot2.png)
@@ -100,6 +102,7 @@ A synthetic `employee_logins` table with:
 - ![Screenshot 5 – Logins over time (by hour)](project/project2-sql-log_analysis/screenshot5.png)
 - ![Screenshot 6 – Failed attempts per user](project/project2-sql-log_analysis/screenshot6.png)
 
+</details>
 
 <details>
 
