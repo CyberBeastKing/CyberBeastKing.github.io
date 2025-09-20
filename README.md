@@ -63,9 +63,98 @@ index=project1 sourcetype=web:logs
 | stats count by src_ip
 | sort - count
 ```
+# 📊 SQL Log Analysis – Detecting Suspicious Logins  
 
+This project simulates a **brute-force login investigation** using SQL queries on employee login data. The goal was to detect failed login attempts, external access, and patterns of compromise.  
 
+---
 
+## Dataset  
+A synthetic `employee_logins` table with:  
+- `username` – Employee username  
+- `login_time` – Timestamp of login  
+- `ip_address` – Source IP  
+- `status` – SUCCESS / FAILED  
+
+---
+
+## 🔎 Investigations  
+
+### 1. All Login Records  
+```sql
+SELECT * 
+FROM employee_logins
+ORDER BY login_time;
+```
+External Logins (Outside Internal IP Range)
+```sql
+SELECT id, username, login_time, ip_address, status
+FROM employee_logins
+WHERE ip_address NOT LIKE '192.168.%'
+  AND ip_address NOT LIKE '10.%'
+  AND ip_address NOT LIKE '172.16.%'
+ORDER BY login_time;
+```
+First Failed → First Success (Suspicious Sequence)
+```sql
+WITH first_failed AS (
+  SELECT username, MIN(login_time) AS first_failed_time
+  FROM employee_logins
+  WHERE status = 'FAILED'
+  GROUP BY username
+),
+first_success AS (
+  SELECT username, MIN(login_time) AS first_success_time
+  FROM employee_logins
+  WHERE status = 'SUCCESS'
+  GROUP BY username
+)
+SELECT f.username, f.first_failed_time, s.first_success_time
+FROM first_failed f
+JOIN first_success s ON f.username = s.username;
+```
+Failed Attempts per IP
+```sql
+SELECT ip_address, COUNT(*) AS failed_count
+FROM employee_logins
+WHERE status = 'FAILED'
+GROUP BY ip_address
+ORDER BY failed_count DESC, ip_address;
+```
+Logins Over Time (by Hour)
+```sql
+SELECT strftime('%Y-%m-%d %H:00', login_time) AS hour_bucket,
+       SUM(CASE WHEN status = 'SUCCESS' THEN 1 ELSE 0 END) AS success_count,
+       SUM(CASE WHEN status = 'FAILED' THEN 1 ELSE 0 END) AS failed_count
+FROM employee_logins
+GROUP BY hour_bucket
+ORDER BY hour_bucket;
+```
+Failed Attempts per User
+```sql
+SELECT username, COUNT(*) AS failed_attempts
+FROM employee_logins
+WHERE status = 'FAILED'
+GROUP BY username
+ORDER BY failed_attempts DESC, username;
+```
+🚩 Findings
+
+Multiple failed logins from 192.168.1.11 and 10.0.0.5.
+
+User jdoe and admin show repeated failures before eventual success — common in brute-force or credential stuffing attempts.
+
+External logins from 203.0.113.55 (Mary) indicate potential access from outside the corporate network.
+
+✅ Skills Demonstrated
+
+SQL filtering, grouping, and aggregation.
+
+Detecting suspicious authentication patterns.
+
+Identifying external vs internal access.
+
+Translating raw logs into actionable security findings.
 
 ### 🧪 Labs
 - Linux permissions lab (chmod, chown, users)
