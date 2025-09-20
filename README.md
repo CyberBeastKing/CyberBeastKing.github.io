@@ -13,7 +13,7 @@ I bring consistency, energy, and a growth mindset — ready to contribute to a S
 - SQL for data analysis & log queries
 - Cybersecurity tools: nmap, wireshark, whois, etc.
 - Hands-on labs from Google course
-- Constant learner (Darknet Diaries + daily study grind)
+- Constant learner (Darknet Diaries + daily study grind, etc)
 
 ---
 
