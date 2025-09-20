@@ -19,8 +19,8 @@ I bring consistency, energy, and a growth mindset — ready to contribute to a S
 ---
 
 ## 📂 Repo Structure
-- `/project1` → Splunk Web Traffic Analysis Dashboard  
-- `/project2-sql-log_analysis` → SQL Log Analysis (Brute Force Investigation)  
+- `/project/web-traffic-analysis.png` → Splunk Web Traffic Analysis Dashboard  
+- `/project/project2-sql-log_analysis` → SQL Log Analysis (Brute Force Investigation)  
 - `/certifications` → PDF & badges  
 - `/labs` → Practice labs and notes  
 
