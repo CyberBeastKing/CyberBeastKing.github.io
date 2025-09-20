@@ -168,7 +168,7 @@ ORDER BY failed_attempts DESC, username;
 ```
 </details>
 
-🚩 Findings
+##🚩 Findings
 
 Multiple failed logins from 192.168.1.11 and 10.0.0.5.
 
@@ -176,7 +176,7 @@ User jdoe and admin showed repeated failures before eventual success — common 
 
 External logins from 203.0.113.55 (mary) indicate possible compromise from outside the network.
 
-✅ Skills Demonstrated
+##✅ Skills Demonstrated
 
 SQL filtering, grouping, and aggregation
 
@@ -186,7 +186,7 @@ Identifying external vs internal access
 
 Translating raw logs into actionable security findings
 
-🧪 Labs
+##🧪 Labs
 
 Linux permissions lab (chmod, chown, users)
 
@@ -194,7 +194,7 @@ SQL practice queries (filtering logs, incident data)
 
 TryHackMe exercises (coming soon)
 
-📓 Notes
+##📓 Notes
 
 Course notes from each module
 
@@ -202,7 +202,7 @@ Handwritten notes from each module
 
 Learning journal / progress tracker
 
-📌 Current Goals
+##📌 Current Goals
 
 Finish Google Cybersecurity Cert
 
