@@ -106,7 +106,7 @@ Screenshot 4 – Failed attempts per IP
 Screenshot 5 – Logins over time (by hour)
 
 Screenshot 6 – Failed attempts per user
-<details><summary><h1>See SQL</h1> Queries</summary>
+<details><summary><h3>See SQL Queries</h3></summary>
   
   All Login Records
   ```sql
