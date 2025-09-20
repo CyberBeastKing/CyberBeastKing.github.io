@@ -1,29 +1,22 @@
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script>
-  // Dark-mode page already defined in your <style> above
-
-  // Fetch and render index.md
-  fetch('index.md')
-    .then(r => {
-      if (!r.ok) throw new Error('Failed to load index.md');
-      return r.text();
-    })
-    .then(md => {
-      const app = document.getElementById('app');
-      app.innerHTML = marked.parse(md);
-
-      // Open non-anchor links in a new tab (post-process, no renderer override)
-      app.querySelectorAll('a[href]').forEach(a => {
-        const href = a.getAttribute('href') || '';
-        if (!href.startsWith('#')) {
-          a.target = '_blank';
-          a.rel = 'noopener noreferrer';
-        }
-      });
-    })
-    .catch(err => {
-      document.getElementById('app').innerHTML =
-        `<p style="color:#f88">Error: ${err.message}</p>
-         <p>You can still view the raw markdown <a href="index.md">here</a>.</p>`;
-    });
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Redirect to the built GitHub Pages root, not index.md -->
+    <meta http-equiv="refresh" content="0; url=/" />
+    <style>
+      :root { color-scheme: dark; }
+      body{
+        background:#000; color:#fff; font-family: Arial, sans-serif;
+        line-height:1.6; margin:20px;
+      }
+      a{ color:#4da6ff; text-decoration:none; }
+      a:hover{ text-decoration:underline; }
+      h1,h2,h3,h4{ color:#ffcc00; }
+      details summary{ cursor:pointer; font-weight:600; margin:6px 0; }
+      details{ margin-bottom:15px; }
+    </style>
+  </head>
+  <body>
+    <p>If you’re not redirected, <a href="/">click here</a>.</p>
+  </body>
+</html>
