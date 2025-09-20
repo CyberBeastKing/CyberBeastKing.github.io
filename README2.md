@@ -51,7 +51,7 @@ A security-focused dashboard built from custom web logs to show how I ingest dat
 
 <details>
 
-## <summary>See SPL Queries</summary>
+**<summary>See SPL Queries</summary>**
 
 #### 1) HTTP Status Codes
 ```spl
