@@ -108,7 +108,7 @@ Screenshot 5 – Logins over time (by hour)
 
 Screenshot 6 – Failed attempts per user
 <details>
-<summary><h3>See SQL Queries</h3></summary>
+ <summary><h3>See SQL Queries</h3></summary>
   
   All Login Records
   ```sql
