@@ -1,6 +1,7 @@
 # 👋🏽 King Sanders – Cybersecurity Portfolio
 
 **Entry-Level SOC Analyst | Cybersecurity Professional in Training**
+
 Passionate about protecting organizations through threat detection, log analysis, and incident response. Currently completing the Google Cybersecurity Certificate while building a home SOC lab with Linux, Splunk, and Security Onion. Hands-on practice includes analyzing suspicious logins, documenting incidents, and performing basic vulnerability assessments.
 I bring consistency, energy, and a growth mindset — ready to contribute to a SOC team on Day One.
 
