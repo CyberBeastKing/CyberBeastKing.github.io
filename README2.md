@@ -96,10 +96,6 @@ A synthetic `employee_logins` table with:
 
 **Screenshots**
 
-**Screenshots**
-
-**Screenshots**
-
 - ![Screenshot 1 – All login records](project/project2-sql-log_analysis/screenshot1.png)
 - ![Screenshot 2 – External logins](project/project2-sql-log_analysis/screenshot2.png)
 - ![Screenshot 3 – Failed → Success sequence](project/project2-sql-log_analysis/screenshot3.png)
