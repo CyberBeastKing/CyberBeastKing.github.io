@@ -165,6 +165,63 @@ ORDER BY failed_attempts DESC, username;
 ```
 </details>
 
+## 🧪 Labs & Practice (Google Cybersecurity Course)
+
+### Manage Authorization (Linux Permissions)
+<details>
+<summary>🔒 Linux Permissions Lab – Click to Expand</summary>
+
+**Screenshots**
+- ![Check Details Command](manage-authorization/1-check-details-command.png)  
+- ![Permissions Output](manage-authorization/2-permissions-output.png)  
+- ![Change Permissions](manage-authorization/3-change-permissions.png)  
+- ![Hidden File Permissions](manage-authorization/4-hidden-file-permissions.png)  
+
+**PDFs**
+- [Current File Permission (PDF)](manage-authorization/current-file-permissions.pdf)  
+- [File Permissions in Linux (PDF)](manage-authorization/file-permissions-in-linux.pdf)  
+
+</details>
+
+---
+
+### SQL Filtering – Data Investigation
+<details>
+<summary>📝 SQL Filtering – Detecting Failed Logins</summary>
+
+**Screenshots**
+- ![Failed Logins After Hours](sql-filtering-data-investigation-cybersecurity-practice/01_failed_logins_after_hours.png)  
+- ![Logins Not From Mexico](sql-filtering-data-investigation-cybersecurity-practice/02_logins_not_from_mexico.png)  
+- ![Login Attempts by Dates](sql-filtering-data-investigation-cybersecurity-practice/03_login_attempts_specific_dates.png)  
+- ![Marketing Building Logins](sql-filtering-data-investigation-cybersecurity-practice/04_marketing_east_building.png)  
+- ![Sales or Finance Logins](sql-filtering-data-investigation-cybersecurity-practice/05_sales_or_finance.png)  
+- ![Not IT Department Logins](sql-filtering-data-investigation-cybersecurity-practice/06_not_in_IT_department.png)  
+
+**PDFs**
+- [Apply Filters to SQL Queries (PDF)](sql-filtering-data-investigation-cybersecurity-practice/apply-filters-to-sql-queries.pdf)  
+- [Table Format (PDF)](sql-filtering-data-investigation-cybersecurity-practice/table-formats.pdf)  
+
+</details>
+
+---
+
+### SQL Filtering – Employee & Machine Info
+<details>
+<summary>💻 Employee & Machine Info SQL Lab</summary>
+
+**Screenshots**
+- ![All Machines Device ID + OS](sql-filtering-practice-employee-machine-info/sql_results/01_all_machines_device_id_and_os.png)  
+- ![Machines Filtered by OS](sql-filtering-practice-employee-machine-info/sql_results/02_machines_filtered_by_os2.png)  
+- ![Employees in Finance](sql-filtering-practice-employee-machine-info/sql_results/03_employees_finance_department.png)  
+- ![Employees in Sales](sql-filtering-practice-employee-machine-info/sql_results/04_employees_sales_department.png)  
+- ![Employee in South Office](sql-filtering-practice-employee-machine-info/sql_results/05_employee_in_south_109_office.png)  
+- ![Employees in South Building](sql-filtering-practice-employee-machine-info/sql_results/06_employees_in_south_building_like_query.png)  
+
+**PDFs**
+- [Training Activity Report (PDF)](sql-filtering-practice-employee-machine-info/training-activity-report-1.pdf)  
+
+</details>
+
 ## 🚩 Findings
 
 - Multiple failed logins from `192.168.1.11` and `10.0.0.5`.
