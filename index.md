@@ -163,6 +163,22 @@ WHERE status = 'FAILED'
 GROUP BY username
 ORDER BY failed_attempts DESC, username;
 ```
+## 🧪 Labs & Practice (Google Cybersecurity Course)
+
+### Manage Authorization (Linux Permissions)
+- [Terminal Screenshot: Check Details Command](manage-authorization/)  
+- [Current File Permission (PDF)](manage-authorization/current-file-permissions.pdf)  
+- [File Permissions in Linux (PDF)](manage-authorization/file-permissions-in-linux.pdf)  
+
+### SQL Filtering – Data Investigation
+- [Terminal Screenshot: Failed Logins After Hours](sql-filtering-data-investigation-cybersecurity-practice/)  
+- [Apply Filters to SQL Queries (PDF)](sql-filtering-data-investigation-cybersecurity-practice/apply-filters-to-sql-queries.pdf)  
+- [Table Format (PDF)](sql-filtering-data-investigation-cybersecurity-practice/table-formats.pdf)  
+
+### SQL Filtering – Employee & Machine Info
+- [SQL Results: All Machines Device ID and OS](sql-filtering-practice-employee-machine-info/)  
+- [Training Activity Report (PDF)](sql-filtering-practice-employee-machine-info/training-activity-report-1.pdf)  
+
 </details>
 
 ## 🚩 Findings
