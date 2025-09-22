@@ -45,8 +45,7 @@ A security-focused dashboard built from custom web logs to show how I ingest dat
 ![Web Traffic Analysis Dashboard](project/web-traffic-analysis.png)
 
 <details>
-
-**<summary>See SPL Queries - **Click to Expand**</summary>**
+ <summary><strong>See SPL Queries - Click to Expand</strong></summary>
 
 #### 1) HTTP Status Codes
 ```spl
@@ -90,8 +89,7 @@ A synthetic `employee_logins` table with:
 `status` – SUCCESS / FAILED
 
 <details>
-  
-**<summary>Screenshots - Click to Expand</summary>**
+  <summary><strong>Screenshots - Click to Expand</strong></summary>
 
 - ![Screenshot 1 – All login records](project/project2-sql-log_analysis/screenshot1.png)
 - ![Screenshot 2 – External logins](project/project2-sql-log_analysis/screenshot2.png)
@@ -103,8 +101,7 @@ A synthetic `employee_logins` table with:
 </details>
 
 <details>
-
-**<summary>See SQL Queries - **Click to Expand**</summary>**
+ <summary><strong>See SQL Queries - Click to Expand</strong></summary>
   
   #### 1) All Login Records
   ```sql
@@ -179,8 +176,9 @@ ORDER BY failed_attempts DESC, username;
 <h2>🧪 Labs & Practice (Google Cybersecurity Course)</h2>
 
 ### Manage Authorization (Linux Permissions)
+
 <details>
-<summary>🔒 Linux Permissions Lab – **Click to Expand**</summary>
+ <summary><strong>🔒 Linux Permissions Lab – Click to Expand</strong></summary>
 
 **PDFs**
 - [Current File Permission (PDF)](manage-authorization/current-file-permissions.pdf)  
@@ -197,8 +195,9 @@ ORDER BY failed_attempts DESC, username;
 ---
 
 ### SQL Filtering – Data Investigation
+
 <details>
-<summary>📝 SQL Filtering – Detecting Failed Logins</summary>
+ <summary><strong>📝 SQL Filtering – Detecting Failed Logins</strong></summary>
 
 **PDFs**
 - [Apply Filters to SQL Queries (PDF)](sql-filtering-data-investigation-cybersecurity-practice/apply-filters-to-sql-queries.pdf)  
@@ -217,8 +216,9 @@ ORDER BY failed_attempts DESC, username;
 ---
 
 ### SQL Filtering – Employee & Machine Info
+
 <details>
-<summary>💻 Employee & Machine Info SQL Lab</summary>
+ <summary><strong>💻 Employee & Machine Info SQL Lab</strong></summary>
 
 **PDFs**
 - [Training Activity Report (PDF)](sql-filtering-practice-employee-machine-info/training-activity-report-1.pdf)  
