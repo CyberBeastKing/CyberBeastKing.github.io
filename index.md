@@ -44,7 +44,7 @@ A security-focused dashboard built from custom web logs to show how I ingest dat
 
 ![Web Traffic Analysis Dashboard](project/web-traffic-analysis.png)
 
-<details>
+<details markdown="1">
  <summary><strong>See SPL Queries - Click to Expand</strong></summary>
 
 #### 1) HTTP Status Codes
@@ -88,7 +88,7 @@ A synthetic `employee_logins` table with:
 
 `status` – SUCCESS / FAILED
 
-<details>
+<details markdown="1">
   <summary><strong>Screenshots - Click to Expand</strong></summary>
 
 - ![Screenshot 1 – All login records](project/project2-sql-log_analysis/screenshot1.png)
@@ -100,7 +100,7 @@ A synthetic `employee_logins` table with:
 
 </details>
 
-<details>
+<details markdown="1">
  <summary><strong>See SQL Queries - Click to Expand</strong></summary>
   
   #### 1) All Login Records
@@ -177,7 +177,7 @@ ORDER BY failed_attempts DESC, username;
 
 ### Manage Authorization (Linux Permissions)
 
-<details>
+<details markdown="1">
  <summary><strong>🔒 Linux Permissions Lab – Click to Expand</strong></summary>
 
 **PDFs**
@@ -196,7 +196,7 @@ ORDER BY failed_attempts DESC, username;
 
 ### SQL Filtering – Data Investigation
 
-<details>
+<details markdown="1">
  <summary><strong>📝 SQL Filtering – Detecting Failed Logins</strong></summary>
 
 **PDFs**
@@ -217,7 +217,7 @@ ORDER BY failed_attempts DESC, username;
 
 ### SQL Filtering – Employee & Machine Info
 
-<details>
+<details markdown="1">
  <summary><strong>💻 Employee & Machine Info SQL Lab</strong></summary>
 
 **PDFs**
